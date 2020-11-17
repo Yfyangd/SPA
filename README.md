@@ -1,5 +1,4 @@
 ## SP&A-Net
-[Project]() | [Arxiv]() | [CVF]() 
 ### Official tensorflow implementation of the paper: "A Novel Deep Learning Architecture for Defect Pattern Classification: Self-Proliferation-and-Attention Neural Network"
 
 ## SP&A-Net's Architecture.
