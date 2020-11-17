@@ -1,8 +1,6 @@
 ## SP&A-Net
-[Project]() | [Arxiv](https://arxiv.org/pdf/1905.01164.pdf) | [CVF]() 
+[Project]() | [Arxiv]() | [CVF]() 
 ### Official tensorflow implementation of the paper: "A Novel Deep Learning Architecture for Defect Pattern Classification: Self-Proliferation-and-Attention Neural Network"
-####  CVPR 2021
-
 
 ## SP&A-Net's Architecture.
 * The first function of SP&A-Net is the self-proliferation, using a series of linear transformations to generate more feature maps at a cheaper cost. We can train image classifier in a more efficient way.
