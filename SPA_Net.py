@@ -32,8 +32,8 @@ class SPANet(tf.keras.Model):
         self.exps = [16, 48, 72, 72, 120, 240, 200, 184, 184, 480, 672, 672, 960, 960, 960, 960]
         self.outs = [16, 24, 24, 40, 40, 80, 80, 80, 80, 112, 112, 160, 160, 160, 160, 160]
         self.ratios = [2] * 16
-        self.use_sa = [False, False, False, True, True, False, False, False,
-                        False, True, True, True, False, True, False, True]
+        self.use_sa = [True, True, True, True, True, True, True, True,
+                        True, True, True, True, True, True, True, True]
         for i, args in enumerate(zip(self.dwkernels, self.strides, self.exps, self.outs, self.ratios, self.use_sa)):
             setattr(self, f"Self_Proliferate_and_Attention_Block{i}", Self_Proliferate_and_Attention_Block(*args))
 
