@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import tensorflow as tf
 from tensorflow.keras.layers import GlobalAveragePooling2D, Conv2D, BatchNormalization, Reshape, Activation, add
 from Self_Proliferate_and_Attention import Self_Proliferate_and_Attention_Block
