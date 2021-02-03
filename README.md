@@ -1,5 +1,5 @@
 ## SP&A-Net
-### Official tensorflow implementation of the paper: "A Novel Deep Learning Architecture for Defect Pattern Classification: Self-Proliferation-and-Attention Neural Network"
+### Official tensorflow implementation of the paper: "Semiconductor Defect Pattern Classification by Self-Proliferation-and-Attention Neural Network (SP&A-Net)"
 
 ## SP&A-Net's Architecture.
 * The first function of SP&A-Net is the self-proliferation, using a series of linear transformations to generate more feature maps at a cheaper cost. We can train image classifier in a more efficient way.
@@ -33,6 +33,3 @@ python TestRun.py
 ```SPA_Net.py``` is the overall network architecture of SP&A-Net. Please refer section 3.4 of this paper.
 
 ```SP&A-Net-Test-Run.ipynb``` is in the form of a Jupyter Notebook as a simple display with CIFAR-10 as the training object.
-
-## Contribution
-In addition, this research won the TSMC 2020 machine learning competition champion. It has achieved substantial improvement in the semicondoctor industry.
