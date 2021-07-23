@@ -24,12 +24,14 @@ python TestRun.py
 
 ## Script Introduction
 
-```Self_Proliferate.py``` is used to generate more feature maps (As paper section 3.1).
+```Self_Proliferate.py``` is used to generate more feature maps (As paper section 3.A).
 
-```Self_Attention.py``` is used to capturing the long-range dependencies of the feature map (As paper secton 3.2).
+```Self_Attention.py``` is used to capturing the long-range dependencies of the feature map (As paper secton 3.B).
 
-```Self_Proliferate_and_Attention.py``` follow the spirit of MobileNet,  "capture features in high dimensions and transfer information in low dimensions",  to make the network more efficient. (As paper secton 3.3).
+```Self_Proliferate_and_Attention.py``` follow the spirit of MobileNet,  "capture features in high dimensions and transfer information in low dimensions",  to make the network more efficient. (As paper secton 3.C).
 
-```SPA_Net.py``` is the overall network architecture of SP&A-Net. Please refer section 3.4 of this paper.
+```SPA_Net.py``` is the overall network architecture of SP&A-Net. Please refer section 3.D of this paper.
+
+```CircleLoss.py``` is used to estimate the loss rate during model training with two elemental deep feature learning approaches: class-level labels and pair-wise labels (as section 3-E).
 
 ```SP&A-Net-Test-Run.ipynb``` is in the form of a Jupyter Notebook as a simple display with CIFAR-10 as the training object.
