@@ -50,3 +50,13 @@ Below Table shows the ablation study of the SP&A-Net compared with the ResNet-50
 
 Below Table presents the accuracy, precision, recall, F1-score, and model parameters in 7 composition ratio (r) of self-proliferating in defect pattern classification. We do experiments under the same number of SP&A layers (16 layers). In order to prevent the classifier from not detecting defective wafers (false negative), the internal rule is that the recall rate should be greater than 99%. Therefore, we exclude parameter settings with r greater than 0.5. In addition, the accuracy of r = 0.06 / 0.13 / 0.25 is slightly higher than the accuracy of r = 0.05. However, the number of parameters used in its model has increased significantly., so we take r=0.5 as the best parameter setting.
 <img style="float: left;" src="./image/r2.jpg" width="70%">
+
+## Result
+AEI Dataset:
+<img style="float: left;" src="./image/raei.jpg" width="100%">
+
+ADI Dataset:
+<img style="float: left;" src="./image/radi.jpg" width="100%">
+
+API Dataset:
+<img style="float: left;" src="./image/rapi.jpg" width="100%">
