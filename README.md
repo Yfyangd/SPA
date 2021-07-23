@@ -9,7 +9,7 @@
 <img style="float: left;" src="./image/SA.jpg" width="50%">
 
 * SP&A Block
-<img style="float: left;" src="./image/SPA.jpg" width="50%">
+<img style="float: left;" src="./image/SPA.jpg" width="40%">
 
 
 ## Code
