@@ -3,10 +3,10 @@
 
 ## SP&A-Net's Architecture.
 * The first function of SP&A-Net is the self-proliferation, using a series of linear transformations to generate more feature maps at a cheaper cost. We can train image classifier in a more efficient way.
-<img style="float: left;" src="./image/SP.jpg" width="90%">
+<img style="float: left;" src="./image/SP.jpg" width="70%">
 
 * The second function is self-attention, capturing the long-range dependencies of the feature map using the channel-wise and spatial attention mechanism.
-<img style="float: left;" src="./image/SA.jpg" width="90%">
+<img style="float: left;" src="./image/SA.jpg" width="70%">
 
 
 ## Code
