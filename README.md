@@ -3,7 +3,11 @@
 
 ## SP&A-Net's Architecture.
 * The first function of SP&A-Net is the self-proliferation, using a series of linear transformations to generate more feature maps at a cheaper cost. We can train image classifier in a more efficient way.
+<img style="float: left;" src="./image/sp.jpg" width="90%">
+
 * The second function is self-attention, capturing the long-range dependencies of the feature map using the channel-wise and spatial attention mechanism.
+<img style="float: left;" src="./image/sa.jpg" width="90%">
+
 
 ## Code
 
@@ -35,3 +39,5 @@ python TestRun.py
 ```CircleLoss.py``` is used to estimate the loss rate during model training with two elemental deep feature learning approaches: class-level labels and pair-wise labels (as section 3-E).
 
 ```SP&A-Net-Test-Run.ipynb``` is in the form of a Jupyter Notebook as a simple display with CIFAR-10 as the training object.
+
+## Results
