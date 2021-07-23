@@ -6,7 +6,10 @@
 <img style="float: left;" src="./image/SP.jpg" width="70%">
 
 * The second function is self-attention, capturing the long-range dependencies of the feature map using the channel-wise and spatial attention mechanism.
-<img style="float: left;" src="./image/SA.jpg" width="70%">
+<img style="float: left;" src="./image/SA.jpg" width="50%">
+
+* SP&A Block
+<img style="float: left;" src="./image/SPA.jpg" width="50%">
 
 
 ## Code
