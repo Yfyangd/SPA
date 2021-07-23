@@ -53,10 +53,10 @@ Below Table presents the accuracy, precision, recall, F1-score, and model parame
 
 ## Result
 AEI Dataset:
-<img style="float: left;" src="./image/raei.jpg" width="100%">
+<img style="float: left;" src="./image/raei.jpg" width="50%">
 
 ADI Dataset:
-<img style="float: left;" src="./image/radi.jpg" width="100%">
+<img style="float: left;" src="./image/radi.jpg" width="50%">
 
 API Dataset:
-<img style="float: left;" src="./image/rapi.jpg" width="100%">
+<img style="float: left;" src="./image/rapi.jpg" width="50%">
