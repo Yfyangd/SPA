@@ -2,13 +2,14 @@
 ### Official tensorflow implementation of the paper: "Semiconductor Defect Pattern Classification by Self-Proliferation-and-Attention Neural Network (SP&A-Net)"
 
 ## SP&A-Net's Architecture.
-* The first function of SP&A-Net is the self-proliferation, using a series of linear transformations to generate more feature maps at a cheaper cost. We can train image classifier in a more efficient way.
+* The first function of SP&A-Net is the self-proliferation, using a series of linear transformations to generate more feature maps at a cheaper cost. We can train image classifier in a more efficient way. Plz refer to ```Self_Proliferate.py``
 <img style="float: left;" src="./image/SP.jpg" width="70%">
 
-* The second function is self-attention, capturing the long-range dependencies of the feature map using the channel-wise and spatial attention mechanism.
+* The second function is self-attention, capturing the long-range dependencies of the feature map using the channel-wise and spatial attention mechanism. Plz refer to ```Self_Attention.py```
 <img style="float: left;" src="./image/SA.jpg" width="50%">
 
 * SP&A Block
+Plz refer to ```SPA_Net.py```
 <img style="float: left;" src="./image/SPA.jpg" width="40%">
 
 
