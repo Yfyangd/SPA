@@ -9,7 +9,7 @@
 <img style="float: left;" src="./image/SA.jpg" width="50%">
 
 * SP&A Block
-Plz refer to ```SPA_Net.py```
+Plz refer to ```Self_Proliferate_and_Attention.py```
 <img style="float: left;" src="./image/SPA.jpg" width="40%">
 
 
