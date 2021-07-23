@@ -46,7 +46,7 @@ python TestRun.py
 ## Ablation Study
 Below Table shows the ablation study of the SP&A-Net compared with the ResNet-50 in different blocks.  GC block performs slightly better than SE, NL and SNL blocks. SP&A-Net performs better than ResNet-50 with GC blocks. According to the ablation study results, we choose Layer Normalization as the regularization strategy, Conv1X1 as the flattening method, Nesterov Accelerated Gradient as the optimizer strategy, and finally Cosine Annealing as the learning rate function.
 
-<img style="float: left;" src="./image/r1.jpg" width="50%">
+<img style="float: left;" src="./image/r1.jpg" width="100%">
 
 Below Table presents the accuracy, precision, recall, F1-score, and model parameters in 7 composition ratio (r) of self-proliferating in defect pattern classification. We do experiments under the same number of SP&A layers (16 layers). In order to prevent the classifier from not detecting defective wafers (false negative), the internal rule is that the recall rate should be greater than 99%. Therefore, we exclude parameter settings with r greater than 0.5. In addition, the accuracy of r = 0.06 / 0.13 / 0.25 is slightly higher than the accuracy of r = 0.05. However, the number of parameters used in its model has increased significantly., so we take r=0.5 as the best parameter setting.
-<img style="float: left;" src="./image/r2.jpg" width="50%">
+<img style="float: left;" src="./image/r2.jpg" width="70%">
