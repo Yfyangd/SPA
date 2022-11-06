@@ -1,3 +1,5 @@
+<iframe frameborder="0" class="juxtapose" width="100%" height="466.4755700325733" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f1892be4-5da0-11ed-b5bd-6595d9b17862"></iframe>
+
 ## SP&A-Net
 ### Official tensorflow implementation of the paper: "Semiconductor Defect Pattern Classification by Self-Proliferation-and-Attention Neural Network [SP&A-Net](https://ieeexplore.ieee.org/document/9628175?source=authoralert)"
 
@@ -53,6 +55,7 @@ Below Table presents the accuracy, precision, recall, F1-score, and model parame
 <img style="float: left;" src="./image/r2.jpg" width="70%">
 
 ## Result
+
 ### AEI Dataset:
 
 <img style="float: left;" src="./image/raei.jpg" width="50%">
@@ -64,5 +67,3 @@ Below Table presents the accuracy, precision, recall, F1-score, and model parame
 ### API Dataset:
 
 <img style="float: left;" src="./image/rapi.jpg" width="50%">
-
-<iframe frameborder="0" class="juxtapose" width="100%" height="466.4755700325733" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f1892be4-5da0-11ed-b5bd-6595d9b17862"></iframe>
