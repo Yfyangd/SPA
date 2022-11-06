@@ -1,5 +1,3 @@
-<iframe frameborder="0" class="juxtapose" width="100%" height="466.4755700325733" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f1892be4-5da0-11ed-b5bd-6595d9b17862"></iframe>
-
 ## SP&A-Net
 ### Official tensorflow implementation of the paper: "Semiconductor Defect Pattern Classification by Self-Proliferation-and-Attention Neural Network [SP&A-Net](https://ieeexplore.ieee.org/document/9628175?source=authoralert)"
 
